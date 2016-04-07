@@ -133,7 +133,8 @@ class Player(object):
         print("8: Imperial Sympathiser")
         print("9: Samurai")
         print("10: Mage")
-        print("11: None of those. Go to hell.")
+        print("11: One of them, I guess.")
+        print("12: None of those. Go to hell.")
         title = input("Enter a number between 0 and 10: ")
         if title == "0":
             self.name = self.name + " the Hero"
@@ -157,6 +158,8 @@ class Player(object):
             self.name = self.name + " the Samurai"
         elif title == "10":
             self.name = self.name + " the Mage"
+        elif title == "11":
+            self.name = self.name + random.choice([" the Hero", " the Lord", " the Lady", " the Eunuch", " the Mistress", " the Villain", " the Bandit", " the Imperial", " the Samurai", " the Mage"])
         else:
             pass
         time.sleep(5)
