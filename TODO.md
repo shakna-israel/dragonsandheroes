@@ -1,0 +1,17 @@
+- [ ] storyTwo
+- [ ] storyThree
+- [ ] storyFour
+- [ ] storyFive
+- [ ] storySix
+- [ ] storySeven
+- [ ] storyEight
+- [ ] storyNine
+- [ ] storyTen
+- [ ] 90 more bad_guys
+- [ ] 90 more sentence_ends
+- [ ] 10 more, at minimum, Hermit deaths in story events.
+- [ ] 10 more, "stumble upon", "defeated the", "lost to" statements in Player.event()
+- [ ] 90 more, at minimum, in get_status
+- [ ] 68 more, at minimum, in enchantment_string()
+- [ ] 44 more, at minimum, in weapon_string()
+- [ ] 24 more, at minimum, in level_string()
