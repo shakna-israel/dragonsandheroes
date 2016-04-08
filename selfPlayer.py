@@ -207,7 +207,7 @@ class Player(object):
     def print_stats(self):
         locale.setlocale(locale.LC_ALL, 'en_US')
         gold = locale.format("%d", self.gold, grouping=True)
-        print(str(self.name) + " is a " + str(self.level_string()) + ".\n" + str(self.pronoun) + " is wearing " + str(self.armor_string()) + " armor.\n" + str(self.pronoun) + " is using a " + str(self.weapon_string()) + " to fight.\n" + str(self.pronoun) + " have the enchantment of " + str(self.enchantment_string()) + ".\n" + str(self.pronoun) + " have " + str(self.health) + "% health remaining.\n" + str(self.pronoun) + " is currently " + str(self.get_status()) + ".\n" + str(self.pronoun) + " has " + str(gold) + " gold coins.")
+        print(str(self.name) + " is a " + str(self.level_string()) + ".\n" + str(self.pronoun) + " is wearing " + str(self.armor_string()) + " armor.\n" + str(self.pronoun) + " is using a " + str(self.weapon_string()) + " to fight.\n" + str(self.pronoun) + " have the enchantment of " + str(self.enchantment_string()) + ".\n" + str(self.pronoun) + " have " + str(self.health) + "% health remaining.\n" + str(self.pronoun) + " has " + str(gold) + " gold coins.")
 
     def get_bad_guy(self):
         bad_guys = []
