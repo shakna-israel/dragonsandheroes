@@ -240,6 +240,18 @@ class Player(object):
         bad_guys.append("Gibborim")
         bad_guys.append("Wooden Pallet")
         bad_guys.append("Oceanus")
+        bad_guys.append("Reaper")
+        bad_guys.append("Assassin")
+        bad_guys.append("Bandit")
+        bad_guys.append("Imperial")
+        bad_guys.append("Mage")
+        bad_guys.append("Samurai")
+        bad_guys.append("Rogue")
+        bad_guys.append("Warlock")
+        bad_guys.append("Necromancer")
+        bad_guys.append("Skeleton")
+        bad_guys.append("Talking Cat")
+        bad_guys.append("Hideous Abyss")
         return bad_guys
 
     def get_sentence_end(self):
@@ -248,6 +260,10 @@ class Player(object):
         sentence_ends.append(" with extreme sensitivity.")
         sentence_ends.append(" effortlessly.")
         sentence_ends.append(" after greatly struggling.")
+        sentence_ends.append(" in a timely manner.")
+        sentence_ends.append(" whilst yawning.")
+        sentence_ends.append(" as if " + str(self.pronoun).lower() + " were still training.")
+        sentence_ends.append(" with the skill of Deadpool.")
         return sentence_ends
 
     def verify(self):
@@ -341,11 +357,13 @@ class Player(object):
                 self.benefit()
                 self.status += 1
                 self.health = self.health - random.choice(range(0, 25))
+                time.sleep(2)
                 return True
             else:
                 print(str(self.name) + " " + str(self.lost_string()) + " " + str(bad_guy) + "...")
                 self.health = self.health - random.choice(range(0, 50))
                 self.status += 1
+                time.sleep(2)
                 return True
         else:
             self.status += 1
@@ -709,19 +727,67 @@ class Player(object):
         elif self.level == 69:
             return "Deadpool"
         elif self.level == 70:
-            return "Demigod"
+            return "Time Traveller"
         elif self.level == 71:
-            return "Small Deity"
+            return "Crazy man, with a box"
         elif self.level == 72:
-            return "Deity"
+            return "Crazy man, with a box, with a new face"
         elif self.level == 73:
-            return "Enlightened Deity"
+            return "Universal Acolyte"
         elif self.level == 74:
-            return "Angry Deity"
+            return "Universal Monk"
         elif self.level == 75:
+            return "Universal Preacher"
+        elif self.level == 76:
+            return "Miracle Worker"
+        elif self.level == 77:
+            return "Saint"
+        elif self.level == 78:
+            return "Ascendant Saint"
+        elif self.level == 79:
+            return "Transcendant Saint"
+        elif self.level == 80:
+            return "Demigod"
+        elif self.level == 81:
+            return "Deified Demigod"
+        elif self.level == 82:
+            return "Deity"
+        elif self.level == 83:
+            return "Demiurge"
+        elif self.level == 84:
             return "God"
+        elif self.level == 85:
+            return "Forbidden God"
+        elif self.level == 86:
+            return "Snake God"
+        elif self.level == 87:
+            return "Cursed God"
+        elif self.level == 88:
+            return "Vengeful God"
+        elif self.level == 89:
+            return "Merciful God"
+        elif self.level == 90:
+            return "Righteous God"
+        elif self.level == 91:
+            return "Massless Particle"
+        elif self.level == 92:
+            return "Antiparticle"
+        elif self.level == 93:
+            return "Antimatter"
+        elif self.level == 94:
+            return "Metamatter"
+        elif self.level == 95:
+            return "Black Hole"
+        elif self.level == 96:
+            return "Collapsing Black Hole"
+        elif self.level == 97:
+            return "Small Singularity"
+        elif self.level == 98:
+            return "Expanding Singularity"
+        elif self.level == 99:
+            return "Existential Singularity"
         else:
-            return "Lord of all Creation"
+            return "Beyond the Existential Singularity"
 
     def armor_string(self):
         if self.armor == 0:

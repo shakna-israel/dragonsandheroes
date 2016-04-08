@@ -14,4 +14,3 @@
 - [ ] 90 more, at minimum, in get_status
 - [ ] 68 more, at minimum, in enchantment_string()
 - [ ] 44 more, at minimum, in weapon_string()
-- [ ] 24 more, at minimum, in level_string()
