@@ -13,4 +13,3 @@
 - [ ] 10 more, "stumble upon", "defeated the", "lost to" statements in Player.event()
 - [ ] 90 more, at minimum, in get_status
 - [ ] 68 more, at minimum, in enchantment_string()
-- [ ] 44 more, at minimum, in weapon_string()
