@@ -582,8 +582,96 @@ class Player(object):
             return "Scroll of Summon Bat Swarm"
         elif self.weapon == 55:
             return "Scroll of Summon Death"
+        elif self.weapon == 56:
+            return "Shard of Infinity"
+        elif self.weapon == 57:
+            return "Infinity Stone"
+        elif self.weapon == 58:
+            return "Magic Ring"
+        elif self.weapon == 59:
+            return "One Ring"
+        elif self.weapon == 60:
+            return "Infinity Dagger"
+        elif self.weapon == 61:
+            return "Sands of Time"
+        elif self.weapon == 62:
+            return "Poseidon's Trident"
+        elif self.weapon == 63:
+            return "Hades' Fork"
+        elif self.weapon == 64:
+            return "Zeus' Lightning"
+        elif self.weapon == 65:
+            return "Deadpool's Fist"
+        elif self.weapon == 66:
+            return "Dragon Talon"
+        elif self.weapon == 67:
+            return "Insane Hobbit"
+        elif self.weapon == 68:
+            return "Ghostly Army"
+        elif self.weapon == 69:
+            return "Dead Army"
+        elif self.weapon == 70:
+            return "Damned Army"
+        elif self.weapon == 71:
+            return "Robot Damned Army"
+        elif self.weapon == 72:
+            return "Living Sword"
+        elif self.weapon == 73:
+            return "Infinity Gauntlet"
+        elif self.weapon == 74:
+            return "Hypercube"
+        elif self.weapon == 75:
+            return "Tesseract"
+        elif self.weapon == 76:
+            return "Penteract"
+        elif self.weapon == 77:
+            return "Hexeract"
+        elif self.weapon == 78:
+            return "Hepteract"
+        elif self.weapon == 79:
+            return "Octeract"
+        elif self.weapon == 80:
+            return "Enneract"
+        elif self.weapon == 81:
+            return "Dekeract"
+        elif self.weapon == 82:
+            return "N-Dimensional Cube"
+        elif self.weapon == 83:
+            return "N-Dimensional Space"
+        elif self.weapon == 84:
+            return "N-Dimensional Time"
+        elif self.weapon == 85:
+            return "2n-gonal Space-Time"
+        elif self.weapon == 86:
+            return "Dwarf Star"
+        elif self.weapon == 87:
+            return "White Dwarf Star"
+        elif self.weapon == 88:
+            return "Red Dwarf Star"
+        elif self.weapon == 89:
+            return "Black Hole"
+        elif self.weapon == 90:
+            return "Super Black Hole"
+        elif self.weapon == 91:
+            return "Super Massive Black Hole"
+        elif self.weapon == 92:
+            return "White Hole"
+        elif self.weapon == 93:
+            return "Hawking Radiation"
+        elif self.weapon == 94:
+            return "Singularity"
+        elif self.weapon == 95:
+            return "Mathematical Distortion Field"
+        elif self.weapon == 96:
+            return "Quantum Entanglement Field"
+        elif self.weapon == 97:
+            return "Ignore Physics Field"
+        elif self.weapon == 98:
+            return "Hyperdimensional Convolution Field"
+        elif self.weapon == 99:
+            return "Deadpool Science"
         else:
-            return "Scroll of Apocalypse"
+            return "Antiparticle Accelerator"
 
     def level_string(self):
         if self.level == 0:
